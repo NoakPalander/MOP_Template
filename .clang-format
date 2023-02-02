@@ -1,0 +1,13 @@
+﻿---
+BasedOnStyle: Google
+AccessModifierOffset: '-4'
+ColumnLimit: '120'
+CompactNamespaces: 'true'
+Cpp11BracedListStyle: 'false'
+IndentWidth: '4'
+Language: Cpp
+NamespaceIndentation: All
+Standard: Auto
+UseTab: Never
+
+...

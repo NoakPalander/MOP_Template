@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "linux": {
+        "gdbpath": "arm-none-eabi-gdb"
+      },
+      "name": "Debug - SimServer",
+      "type": "gdb",
+      "request": "attach",
+      "executable": "../debug/MOP",
+      "target": ":1234",
+      "remote": true,
+      "valuesFormatting": "parseText",
+      "autorun": [
+        "target extended-remote localhost:1234",
+        "load",
+        "monitor restart",
+        "b main"
+      ]
+    }
+  ]
+}
