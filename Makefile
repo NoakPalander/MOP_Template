@@ -15,7 +15,7 @@ OBJCPY := $(CC_PATH)/bin/arm-none-eabi-objcopy
 OBJDMP := $(CC_PATH)/bin/arm-none-eabi-objdump
 
 FILES := \
-	src/startup.c
+	src/main.c
 
 build:
 	-mkdir debug
